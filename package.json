@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "0.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "13.9.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "client": "node --harmony-top-level-await ./dist/client.js",
+    "server": "node ./dist/server.js"
+  },
+  "type": "module"
+}
